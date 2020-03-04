@@ -28029,7 +28029,7 @@
 	  console.log(props.route);
 	  console.log("END OF DETAIL POST GOES HERE!============================");
 	  console.log("PARAMS DETAIL POST GOES HERE!============================");
-	  console.log(props.route.posts);
+	  console.log(props.route.params);
 	  console.log("END OF PARAMS DETAIL POST GOES HERE!============================");
 	  let post = props.route.list_posts.find(post => post.slug === props.params.id);
 	  return React.createElement(
